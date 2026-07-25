@@ -17,6 +17,7 @@ const translations = {
         ads1: "O aplicativo utiliza o Google AdMob para exibir anúncios.",
         ads2: "O Google poderá coletar informações de acordo com sua própria Política de Privacidade.",
         ads3: "Ao adquirir a opção 'Remover anúncios', a publicidade deixa de ser exibida.",
+        googlePrivacy: "Política de Privacidade do Google",
 
         billingTitle: "Compras no aplicativo",
         billing1: "As compras são processadas exclusivamente pela Google Play.",
@@ -51,6 +52,7 @@ const translations = {
         ads1: "This application uses Google AdMob to display advertisements.",
         ads2: "Google may collect information in accordance with its own Privacy Policy.",
         ads3: "After purchasing the 'Remove Ads' option, advertisements will no longer be displayed.",
+        googlePrivacy: "Google Privacy Policy",
 
         billingTitle: "In-App Purchases",
         billing1: "All purchases are processed exclusively through Google Play.",
@@ -85,6 +87,7 @@ const translations = {
         ads1: "Esta aplicación utiliza Google AdMob para mostrar anuncios.",
         ads2: "Google puede recopilar información de acuerdo con su propia Política de Privacidad.",
         ads3: "Al adquirir la opción 'Eliminar anuncios', la publicidad dejará de mostrarse.",
+        googlePrivacy: "Política de Privacidad de Google",
 
         billingTitle: "Compras dentro de la aplicación",
         billing1: "Todas las compras se procesan exclusivamente a través de Google Play.",
