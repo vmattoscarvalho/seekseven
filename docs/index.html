@@ -1,110 +1,231 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
 
     <title>Seek 7 Words</title>
 
-    <link rel="icon" type="image/x-icon" href="seek7.ico">
-    <link rel="icon" type="image/x-icon" href="seek7.ico">
-    <link rel="stylesheet" href="styles.css">
+    <link
+        rel="icon"
+        type="image/x-icon"
+        href="seek7.ico"
+    >
+
+    <link
+        rel="stylesheet"
+        href="styles.css"
+    >
 </head>
 
 <body>
 
     <header class="hero">
-        <img src="icon.png" alt="Seek Seven Words" class="logo">
+
+        <img
+            src="icon.png"
+            alt="Seek 7 Words"
+            class="logo"
+        >
 
         <h1 data-i18n="title"></h1>
 
         <p data-i18n="subtitle"></p>
 
-        <a href="https://play.google.com/store/apps/details?id=com.mattoscarvalho.seeksevenwords"
-            class="play-store-button" target="_blank" rel="noopener noreferrer">
-            ▶ <span data-i18n="Play Store"></span>
+        <a
+            href="https://play.google.com/store/apps/details?id=com.mattoscarvalho.seeksevenwords"
+            class="play-store-button"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            ▶
+            <span data-i18n="playStore"></span>
         </a>
 
         <div class="language-selector">
-            <button data-lang="pt">🇧🇷 PT</button>
-            <button data-lang="en">🇺🇸 EN</button>
-            <button data-lang="es">🇪🇸 ES</button>
+            <button data-lang="pt">
+                🇧🇷 PT
+            </button>
+
+            <button data-lang="en">
+                🇺🇸 EN
+            </button>
+
+            <button data-lang="es">
+                🇪🇸 ES
+            </button>
         </div>
+
     </header>
 
+
     <main class="container">
-        <p class="intro" data-i18n="intro"></p>
+
+        <p
+            class="intro"
+            data-i18n="intro"
+        ></p>
+
+
         <!-- GAMEPLAY -->
 
         <section class="gameplay">
+
             <h2>
                 🎮
                 <span data-i18n="gameplayTitle"></span>
             </h2>
 
-            <div class="video-container">
-                <video controls playsinline preload="metadata">
-                    <source src="seek7-gameplay.mp4" type="video/mp4">
+            <div class="video-wrapper">
+
+                <video
+                    class="gameplay-video"
+                    controls
+                    playsinline
+                    preload="metadata"
+                >
+                    <source
+                        src="seek7-gameplay.mp4"
+                        type="video/mp4"
+                    >
 
                     Seu navegador não suporta vídeo HTML5.
                 </video>
+
             </div>
+
         </section>
+
+
+        <!-- PRIVACIDADE -->
+
         <section class="card">
-            <h2>📄 <span data-i18n="privacyTitle"></span></h2>
+
+            <h2>
+                📄
+                <span data-i18n="privacyTitle"></span>
+            </h2>
+
             <ul>
                 <li data-i18n="privacy1"></li>
                 <li data-i18n="privacy2"></li>
                 <li data-i18n="privacy3"></li>
             </ul>
+
         </section>
 
+
+        <!-- ANÚNCIOS -->
+
         <section class="card">
-            <h2>📢 <span data-i18n="adsTitle"></span></h2>
+
+            <h2>
+                📢
+                <span data-i18n="adsTitle"></span>
+            </h2>
+
             <ul>
                 <li data-i18n="ads1"></li>
                 <li data-i18n="ads2"></li>
                 <li data-i18n="ads3"></li>
             </ul>
+
             <p class="external-link">
-                <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer"
-                    data-i18n="googlePrivacy">
-                </a>
+
+                <a
+                    href="https://policies.google.com/privacy"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    data-i18n="googlePrivacy"
+                ></a>
+
             </p>
+
         </section>
 
+
+        <!-- COMPRAS -->
+
         <section class="card">
-            <h2>💎 <span data-i18n="billingTitle"></span></h2>
+
+            <h2>
+                💎
+                <span data-i18n="billingTitle"></span>
+            </h2>
+
             <ul>
                 <li data-i18n="billing1"></li>
                 <li data-i18n="billing2"></li>
                 <li data-i18n="billing3"></li>
             </ul>
+
         </section>
 
+
+        <!-- CRIANÇAS -->
+
         <section class="card">
-            <h2>👶 <span data-i18n="childrenTitle"></span></h2>
+
+            <h2>
+                👶
+                <span data-i18n="childrenTitle"></span>
+            </h2>
+
             <ul>
                 <li data-i18n="children1"></li>
                 <li data-i18n="children2"></li>
                 <li data-i18n="children3"></li>
             </ul>
+
         </section>
 
+
+        <!-- CONTATO -->
+
         <section class="card">
-            <h2>📧 <span data-i18n="contactTitle"></span></h2>
+
+            <h2>
+                📧
+                <span data-i18n="contactTitle"></span>
+            </h2>
+
             <ul>
-                <li>Vinicius Baptista de Mattos Carvalho</li>
-                <a href="mailto:mattoscarvalho@gmail.com">
-                    mattoscarvalho@gmail.com
-                </a>
+                <li>
+                    Vinicius Baptista de Mattos Carvalho
+                </li>
+
+                <li>
+                    <a href="mailto:mattoscarvalho@gmail.com">
+                        mattoscarvalho@gmail.com
+                    </a>
+                </li>
             </ul>
+
         </section>
 
     </main>
 
+
     <footer>
-        <strong>Seek 7 Words</strong><br>
+
+        <strong>
+            Seek 7 Words
+        </strong>
+
+        <br>
+
         <span data-i18n="footer"></span>
+
     </footer>
 
+
     <script src="script.js"></script>
+
 </body>
+
+</html>
