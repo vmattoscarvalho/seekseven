@@ -111,3 +111,37 @@ footer {
     color: #666;
 
 }
+
+.gameplay {
+    margin: 40px 0;
+    text-align: center;
+}
+
+.gameplay h2 {
+    margin-bottom: 24px;
+}
+
+.video-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.gameplay-video {
+    display: block;
+
+    width: 280px;
+    max-width: 90vw;
+
+    height: auto;
+
+    margin: 0 auto;
+
+    border-radius: 20px;
+
+    background: #000;
+
+    box-shadow:
+        0 10px 30px rgba(0, 0, 0, 0.25);
+}
