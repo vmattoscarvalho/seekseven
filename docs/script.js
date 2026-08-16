@@ -31,7 +31,9 @@ const translations = {
 
         contactTitle: "Contato",
 
-        footer: "Feito no Brasil 🇧🇷"
+        footer: "Feito no Brasil 🇧🇷",
+        gameplayTitle: "Veja o jogo em ação",
+        playStore: "Baixar na Google Play",
 
     },
 
@@ -66,8 +68,10 @@ const translations = {
 
         contactTitle: "Contact",
 
-        footer: "Made in Brazil 🇧🇷"
+        footer: "Made in Brazil 🇧🇷",
 
+        gameplayTitle: "See the game in action",
+        playStore: "Get it on Google Play",
     },
 
     es: {
@@ -101,8 +105,10 @@ const translations = {
 
         contactTitle: "Contacto",
 
-        footer: "Hecho en Brasil 🇧🇷"
-
+        footer: "Hecho en Brasil 🇧🇷",
+        
+        gameplayTitle: "Mira el juego en acción",
+        playStore: "Descargar en Google Play",
     }
 
 };
